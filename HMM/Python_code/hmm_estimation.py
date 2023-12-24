@@ -11,7 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import pomegranate as pg
 
-data=pd.read_csv("C:/model_algo/data_hmm.csv")
+data=pd.read_csv("HMM/data/orignal_data.csv")
 #print(data)
 or_s=data['Communicative actions']
 us_i=data['User']
